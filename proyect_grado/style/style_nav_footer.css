@@ -1,0 +1,182 @@
+/* Navegacion */
+.menu header nav {
+  border-bottom: 10px solid #bc1b28;
+  background: #525457;
+  padding: 0px 10px;
+  /* border-bottom: solid 1px rgba(160, 160, 160, 0.781); */
+}
+.menu {
+  box-shadow: 0px 10px 10px rgba(173, 160, 160, 0.76);
+}
+.menu header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu header nav .logo {
+  display: flex;
+}
+.menu header nav .logo > span {
+color: white;
+width: 200px;
+font-size: 13px;
+margin-top: 10px;
+}
+
+img.escudo {
+  width: 60px;
+  height: 60px;
+  background: rgba(255, 255, 255, 0);
+  margin-right: 5px;
+  animation: animacion_r 1.5s forwards;
+  animation-delay: 2.5s ;
+}
+
+@keyframes animacion_r {
+  form{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+span {
+  letter-spacing: 3px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+
+.menu header nav .links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.menu header nav .links a {
+  margin: 15px 10px 15px 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.8s;
+  border-bottom: 3px solid #f6df35;
+}
+.menu header nav .links .animation:hover {
+  transform: scale(1.1);
+}
+
+.menu header nav .links .animation {
+  font-size: 18px;
+}
+.menu header nav .links .animation:focus {
+  box-shadow: 5px 5px 8px #f6df35;
+}
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
+.nav-link:focus {
+  box-shadow: 5px 5px 8px #f6df35;
+}
+
+.menu header nav .links form {
+  margin: 5px 10px 0px 20px;
+  height: 45px;
+}
+
+.menu header nav .links ul li > .sub-titulo-bach {
+  color: black;
+  width: 10px;
+}
+.menu header nav .links ul li > .sub-titulo-bach:hover {
+  width: 130px;
+  font-size: 18px;
+  background: white;
+}
+
+.menu header nav .links ul li > .sub-titulo-docente {
+  color: black;
+  width: 10px;
+  transition: 0.8s;
+}
+.menu header nav .links ul li > .sub-titulo-docente:hover {
+  width: 130px;
+  font-size: 18px;
+  background: white;
+}
+.menu header nav .nav-link {
+  margin: 0px;
+}
+.menu header nav .links .btn-success {
+  border-bottom: none;
+}
+
+.btn-opciones{
+margin-left: 80px;
+display:none ;
+}
+.btn-opciones > i{
+  font-size: 25px;
+  color: rgb(206, 206, 206);
+  cursor: pointer;
+}
+
+/* FOOTER */
+.footer {
+  width: 100%;
+  height: 170px;
+  background: #525457;
+  color: #fff;
+  text-align: center;
+}
+.tecnologias {
+  text-align: center;
+}
+li {
+  text-decoration: none;
+  list-style: none;
+}
+.footer > li > b {
+  margin: 29px;
+}
+
+/* ICONO WHATSAPP */
+ .container_whatsapp > .app-whatsapp{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 40px;
+  top: 570px;
+  width: 85px;
+  height: 85px;
+  overflow: hidden;
+  background:#91919170 ;
+  padding: 10px;
+  border-radius: 50px;
+}
+.container_whatsapp > .app-whatsapp > i{
+  font-size: 65px;
+  color: #1ebea5;
+}
+ .container_whatsapp > .app-whatsapp:hover > i { 
+  color: #1ebea6bd;
+}
+
+
+@media screen  and (max-width: 360px) {
+   .links{
+    display: none;
+    opacity: 0;
+  }
+  .menu header nav .logo > span{
+  opacity: 0;
+  margin-top: 0;
+  }
+  .btn-opciones{
+    display: flex;
+  }
+}

@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.cont-master{
+    width: 100%;
+    padding: 2%;
+    margin: auto;
+}
+
+.docentes_tecnico_inf{
+    border-radius: 10px;
+    box-shadow: 5px 10px 20px 5px #8a8a8ab0 ;
+    overflow: hidden;
+    height: 4000px;
+    transition: 2s;
+}
+
+.autoridades{
+    height: 1500px;
+}
+.encoger{
+    height: 110px;
+}
+
+.rotar{
+    transform: rotate(180deg);
+}
+
+.docentes_tecnico_inf > h1{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 5px solid #8a8a8ab0 ;
+    cursor: pointer;
+    /* border-radius: 10px; */
+    /* box-shadow: 10px 10px 10px 5px #8a8a8ab0  ; */
+}
+.docentes_tecnico_inf > h1 > span{
+transition: 2s;
+}
+.cont-docentes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cont-docente{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    line-height: 20px;
+    /* overflow: hidden; */
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px ;
+    box-shadow: 5px 5px 25px 2px #8a8a8ab0;
+    border-bottom: 15px solid #bc1b28;
+    margin: 20px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.cont-docente:hover{
+    transform: scale(1.1);
+    z-index: 1000;
+}
+.cont-docente .img-docente {
+    overflow: hidden;
+    border-bottom: 5px solid #5e5e5e2d;
+    margin-bottom: 20px;
+}
+
+.cont-docente .img-docente img{
+    width: 10em;
+    height: 10em;
+    border-radius:  100%;
+    padding: 5px;
+    background: #5e5e5e2d;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.inf-docente{
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    padding-left:20px ;
+}
+
+.inf-docente p{
+    font-weight: bolder;
+}
