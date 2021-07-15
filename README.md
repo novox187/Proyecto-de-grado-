@@ -1,6 +1,8 @@
 # Paguina Web de la Unidad Educativa Francisco De Orellana 
 
-Dentro de el archivo proyecto colegio tambien encontaras la base de datos 
+![foto de la pagina](https://user-images.githubusercontent.com/54120231/125863344-eed7586b-43d3-4727-8246-da770c07ebb3.png)
+
+Dentro de el archivo proyecto_grado tambien encontaras la base de datos 
 
 # SUGERENCIAS A MEJORAR PARA ESTA PAGUINA
 -añadirle la opcion de reguitrar mas administradores y añadirlos a la base de datos
